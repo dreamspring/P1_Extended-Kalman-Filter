@@ -26,7 +26,7 @@ Then run the simulator. There are two dataset sets in the simulator.
 ## Results
 Results with dataset 1:
 
-The RSME is calculated: 
+The RMSE is calculated: 
 X: 0.0973;  Y: 0.0855;  VX: 0.4513;  VY: 0.4399
 
 Snapshot from simulator:
@@ -35,7 +35,7 @@ Snapshot from simulator:
 
 Results with dataset 2:
 
-The RSME is calculated: 
+The RMSE is calculated: 
 X: 0.0726;  Y: 0.0965;  VX: 0.4216;  VY: 0.4932
 
 Snapshot from simulator:

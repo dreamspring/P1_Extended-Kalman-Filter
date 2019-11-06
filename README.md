@@ -19,9 +19,20 @@ To build the project:
 4. Run it: `./ExtendedKF `
 
 To run the code:
-Set the build directory as current directory, then run ./ExtendedKF.
-The following words will be shown on screen: Listening to port 4567.
-Then run the simulator. There are two dataset sets in the simulator.
+Set the build directory as current directory, then run ./ExtendedKF. <br />
+The following words will be shown on screen: Listening to port 4567. <br />
+Then run the simulator. There are two dataset sets in the simulator. <br />
+
+## Data
+Lidar data example: <br />
+L	3.122427e-01	5.803398e-01	1477010443000000	6.000000e-01	6.000000e-01	5.199937e+00	   0	    0	    6.911322e-03 <br />
+L-----px------------py------------time step---------x_gt----------y_gt----------vx_gt-----vy_gt  <br />
+
+R	1.014e+00	5.529e-01	4.892e+00	1477010443050000	8.599e-01	6.000e-01	5.1997e+00	1.796e-03	3.455e-04	1.382e-02 <br />
+R-----rho-----theta------rho_dot--------time step----------x_gt-------y_gt-------vx_gt------vy_gt  <br />
+
+time step is 1.0e-6 second. <br />
+x_gt, y_gt, vx_gt and vy_gt are ground truth values. <br />
 
 ## Results
 Results with dataset 1:

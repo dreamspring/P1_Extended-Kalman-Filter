@@ -39,8 +39,11 @@ x_gt, y_gt, vx_gt and vy_gt are ground truth values. <br />
 
 First-order extended Kalman filter (EKF) is obtained by retaining the first term of the Taylor series expansions. <br />
 
-![Test One Visualization](https://github.com/dreamspring/P1_Extended-Kalman-Filter/blob/master/2019-11-06%2022_38_14-Extended%20Kalman%20filter%20-%20Wikipedia.png "Continuous-time Extended Kalman Filter")
+![Test One Visualization](https://github.com/dreamspring/P1_Extended-Kalman-Filter/blob/master/2019-11-06%2022_55_51-Extended%20Kalman%20filter%20-%20Wikipedia.png "Continuous-time Extended Kalman Filter")
 
+P is state covariance matrix. <br />
+F is state transition matrix. <br />
+H is measurement matrix. <br />
 Q is a covariance matrix associated with the noise in states. <br />
 R is the covariance matrix of the measurement noise. <br />
 

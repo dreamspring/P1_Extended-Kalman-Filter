@@ -34,6 +34,8 @@ R-----rho-----theta------rho_dot--------time step----------x_gt-------y_gt------
 time step is 1.0e-6 second. <br />
 x_gt, y_gt, vx_gt and vy_gt are ground truth values. <br />
 	
+## Extended Kalman Filter
+![Test One Visualization](https://github.com/dreamspring/P1_Extended-Kalman-Filter/blob/master/2019-11-06 22_38_14-Extended Kalman filter - Wikipedia.png "Extended Kalman Filter")
 
 ## Results
 Results with dataset 1:
